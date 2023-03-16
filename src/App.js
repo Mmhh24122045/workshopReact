@@ -2,11 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Form } from 'react-bootstrap';
+import ProfilePhoto from './compoment/ProfilePhoto';
+import FullName from './compoment/FullName';
+import Address from './compoment/Address';
 
 function App() {
   return (
     <div className="App">
-        <Form>
+        {/* <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -25,7 +28,10 @@ function App() {
       <Button variant="primary" type="submit">
         Submit
       </Button>
-    </Form> 
+    </Form>  */}
+    <ProfilePhoto />
+    <FullName/>
+    <Address/>
       
     </div>)
   ;
